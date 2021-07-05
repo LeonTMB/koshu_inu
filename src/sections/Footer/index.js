@@ -90,7 +90,17 @@ const Footer = () => {
                 <List>
                   <ListItem>
                     <Link href="https://www.hotbit.io/exchange?symbol=KOSHU_USDT">
-                      <a>Buy KOSHU on HOTBIT</a>
+                      <a>Buy KOSHU</a>
+                    </Link>
+                  </ListItem>
+                  <ListItem>
+                    <Link href="https://www.hotbit.io/exchange?symbol=KOSHU_USDT">
+                      <a>Buy HOTBIT</a>
+                    </Link>
+                  </ListItem>
+                  <ListItem>
+                    <Link href="#">
+                      <a>Lbank</a>
                     </Link>
                   </ListItem>
                   <ListItem>
