@@ -3,20 +3,20 @@ const Data = {
     {
       name: "Home",
       path: "/",
-      subItems: [
-        {
-          name: "Home Two",
-          path: "/home-two"
-        },
-        {
-          name: "Home Three",
-          path: "/home-three"
-        },
-        {
-          name: "Home Slider",
-          path: "/home-slider"
-        }
-      ]
+      // subItems: [
+        // {
+        //   name: "Home Two",
+        //   path: "/home-two"
+        // },
+        // {
+        //   name: "Home Three",
+        //   path: "/home-three"
+        // },
+        // {
+        //   name: "Home Slider",
+        //   path: "/home-slider"
+        // }
+      // ]
     },
     {
       name: "About",

@@ -32,6 +32,7 @@ const Home = () => {
       <GlobalStyle />
       <Navigation />
       <BannerTwo />
+      <Stack />
       <Service />
       <CoinFund />
       <About />
@@ -40,7 +41,6 @@ const Home = () => {
       <Wallet />
       <Statistics />
        <Faq />
-      {/* <Stack /> */}
       <Footer />
     </ThemeProvider>
   );

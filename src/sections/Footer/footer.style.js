@@ -7,6 +7,7 @@ const FooterWrapper = styled.div`
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    word-wrap: break-word;
   }
   a {
     &:hover {
@@ -51,6 +52,12 @@ const FooterWrapper = styled.div`
       margin-bottom: 23px;
     }
 
+    @media screen and (max-width: 454px) {
+      #wordbreak {
+        word-wrap: break-word;
+        font-size: 12px;
+      }
+    }
     .contact-info {
       display: flex;
       flex-direction: column;

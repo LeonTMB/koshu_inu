@@ -7,29 +7,39 @@ import rubyLogo from "assets/images/languages/ruby.png";
 export default {
   stack: [
     {
-      name: "gihub",
-      url: "#",
-      imageSrc: githubLogo,
+      url: "https://www.hotbit.io/exchange?symbol=RYOSHI_USDT",
+      imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/all-150x150.png",
+      name: "Hotbit",
     },
     {
-      name: "javascript",
-      url: "#",
-      imageSrc: javascriptLogo,
+      url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9",
+      imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/alll-150x150.png",
+      name: "Pancakeswap",
     },
     {
-      name: "python",
-      url: "#",
-      imageSrc: pythonLogo,
+      url: "https://www.hotbit.io/exchange?symbol=RYOSHI_USDT",
+      imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/all-150x150.png",
+      name: "Hotbit",
     },
     {
-      name: "reactjs",
-      url: "#",
-      imageSrc: reactLogo,
+      url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9",
+      imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/alll-150x150.png",
+      name: "Pancakeswap",
     },
-    {
-      name: "ruby",
-      url: "#",
-      imageSrc: rubyLogo,
-    },
+    // {
+    //   url: "#",
+    //   imageSrc: pythonLogo,
+    //   name: "Hotbit",
+    // },
+    // {
+    //   url: "#",
+    //   imageSrc: reactLogo,
+    //   name: "Pancakeswap",
+    // },
+    // {
+    //   name: "ruby",
+    //   url: "#",
+    //   imageSrc: rubyLogo,
+    // },
   ],
 };
