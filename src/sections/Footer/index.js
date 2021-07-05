@@ -24,7 +24,7 @@ const Footer = () => {
           <Row>
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets company-desc">
-                <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
+                <Image src={cryptikFooterLogo} alt="Koshu footer logo" />
                 <Text>
                 </Text>
 
@@ -134,8 +134,8 @@ const Footer = () => {
             <Col className="lg-5 sm-6">
               <Box className="footer-widgets address">
                 <Heading as="h2">Our Address</Heading>
-                <Text>
-                0xbf5957be42917e3f3b4fe214421c0571d21ad254
+                <Text id="wordbreak">
+                  0xbf5957be42917e3f3b4fe214421c0571d21ad254
                 </Text>
                 <Text> SYMBOL: KOSHU</Text>
                 <Text>NETWORK: BINANCE SMARTCHAIN</Text>

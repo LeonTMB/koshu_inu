@@ -19,11 +19,11 @@ const Stack = () => {
           <Row>
             <Col className="offset-lg-3 offset-md-1 lg-6 md-10  sm-12">
               <SectionTitle>
-                <Heading> Technology we use</Heading>
-                <Text>
+                <Heading> Crypto Currencies we sell</Heading>
+                {/* <Text>
                   Attention in when in just something bread not hundred well,
                   muff value emerge on the known officers.
-                </Text>
+                </Text> */}
               </SectionTitle>
             </Col>
           </Row>
@@ -31,11 +31,14 @@ const Stack = () => {
             <Col className="md-8 offset-md-2 xs-12">
               <Box className="language-image">
                 {data.stack.map((item, index) => (
+                  <div>
                   <Link href={item.url} key={index}>
                     <a>
                       <Image src={item.imageSrc} alt={item.name} />
                     </a>
                   </Link>
+                  <div>{item.name}</div>
+                  </div>
                 ))}
               </Box>
             </Col>
