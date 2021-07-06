@@ -1,10 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import FavIcon from "assets/images/fav-icon.png";
+import FavIcon from "assets/images/fav-icon.jpg";
 
 const Main = ({
   children,
-  title = "Cryptik | Next gentrations react next landing page",
+  title = "Koshu Inu | Next gentrations react next landing page",
 }) => {
   return (
     <React.Fragment>

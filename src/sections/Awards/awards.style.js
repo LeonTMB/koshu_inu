@@ -18,7 +18,7 @@ const AwardsSectionWrapper = styled.div`
 
     .awards-item {
       display: flex;
-      width: 49%;
+      width: 90%;
       color: #fff;
       align-items: center;
       padding: 20px 0 20px 50px;

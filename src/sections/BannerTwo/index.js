@@ -27,11 +27,11 @@ import BannerWrapper from "./banner.style";
 const BannerTwo = () => {
   return (
     <BannerWrapper>
-      <img src={particleTopLeft} className="section__particle top-left" alt="cryptik particles"/>
-      <img src={particleUnderLogo} className="section__particle two" alt="cryptik particles"/>
-      <img src={prticleTopRight} className="section__particle top-right" alt="cryptik particles"/>
-      <img src={particleBottomLeft} className="section__particle bottom-left" alt="cryptik particles"/>
-      <img src={particleBottomRight} className="section__particle bottom-right" alt="cryptik particles"/>
+      <img src={particleTopLeft} className="section__particle top-left" alt="koshu Inu particles"/>
+      <img src={particleUnderLogo} className="section__particle two" alt="koshu Inu particles"/>
+      <img src={prticleTopRight} className="section__particle top-right" alt="koshu Inu particles"/>
+      <img src={particleBottomLeft} className="section__particle bottom-left" alt="koshu Inu particles"/>
+      <img src={particleBottomRight} className="section__particle bottom-right" alt="koshu Inu particles"/>
       <Container>
        
       <svg className="banner__thumb" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="493.537" height="606.367" viewBox="0 0 493.537 606.367">
@@ -239,27 +239,28 @@ const BannerTwo = () => {
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content"> 
               <Heading>
-                Koshu Inu, <br/>
+                Koshu Inu,<br/>
                 Father of Shib and Akita
               </Heading>
               <Text as="span" className="description">
-                {/* The highly the not having with lively. Our up with ran go her it
-                gloomy the back, though however projected not for six with then,
-                trusted as concepts belt. */}
+                KOSHU is an experiment in a decentralized spontaneous community building.
+                KOSHU token is our first token and allows users to hold Billions or even Trillions of them.
+                BEP_20 ONLY token can remain well under a penny and still outpace in a small amount of time
+                Popular worldwide, and already up thousands of percent.
               </Text>
 
               <Box className="coin-info">
                 <Box>
                   <Image src={keyIcon} alt="crypto banner icon" />
-                  <Text>Access</Text>
+                  <Text>Accessible</Text>
                 </Box>
                 <Box>
                   <Image src={watchIcon} alt="crypto banner icon" />
-                  <Text>Speed</Text>
+                  <Text>Growth</Text>
                 </Box>
                 <Box>
                   <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Certainty</Text>
+                  <Text>Trustworthy</Text>
                 </Box>
               </Box>
 

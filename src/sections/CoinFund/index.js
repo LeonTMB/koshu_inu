@@ -41,13 +41,18 @@ const CoinFund = () => {
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                    Powering Data for the new equity blockchain.
+                  BLOCK CHAIN TECHNOLOGY 
                   </Heading>
                 </SectionBackground>
                 <Text>
-                  The highly the not having with lively. Our up with ran go her
-                  it gloomy the back, though however projected not for six with
-                  then, trusted as concepts belt.
+                  Decentralization is not a new concept. When building a technology solution, three primary
+                  network architectures are typically considered: centralized, distributed, and decentralized. While
+                  blockchain technologies often make use of decentralized networks, a blockchain application
+                  itself cannot be categorized simply as being decentralized or not. Rather, decentralization is a
+                  sliding scale and should be applied to all aspects of a blockchain application. By decentralizing
+                  the management of and access to resources in an application, greater and fairer service can be
+                  achieved. Decentralization typically has some tradeoffs such as lower transaction throughput, but
+                  ideally, the tradeoffs are worth the improved stability and service levels they produce. 
                 </Text>
               </SectionTitle>
 
