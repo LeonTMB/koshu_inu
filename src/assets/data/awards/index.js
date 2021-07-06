@@ -4,7 +4,7 @@ export default {
   awards: [
     {
       icon: <FaFly />,
-      count: "100000000000",
+      count: 100000000000,
       body: "Total supply",
     },
     {
