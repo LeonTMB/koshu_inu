@@ -37,7 +37,7 @@ const BannerTwo = () => {
       
         <Row>
           <Col className="lg-5 md-8 xs-12 order-md-2">
-            <img src={BannerImage} className="anner__thumb" alt="koshu Inu particles"/>
+            <img src={BannerImage} className="anner__thumb" alt="koshu Inu hero Logo"/>
           </Col>
           <Col className="lg-7 md-10 xs-12 order-md-1">
             <Box className="banner-content"> 

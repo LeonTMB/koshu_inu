@@ -33,14 +33,34 @@ const Wallet = () => {
             <Box className="wallet-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading> Crypto management wallet </Heading>
+                  <Heading> Cryptocurrency Environment </Heading>
                 </SectionBackground>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates far catch he warned a they
-                  but country. Times, cache in and what but the that go
-                  facilitate far were house.
+                  Cryptos are used for transactions such as buying and selling goods and
+                  services, as store of value, as ecosystem tokens and many other purposes.
+                  This is made possible with the use of an online ledger with strong
+                  cryptography. The use of cryptography makes it difficult to double-spend
+                  or counterfeit. One defining feature is that it is not regulated by any
+                  central authority, making it a tax-free operation system.
+                  Cryptocurrencies wor by using Blockchain technology spread across
+                  various computers.
+                </Text>
+                <Text>
+                The blockchain is a digital record for transactions made with
+                cryptocurrencies. It uses an E-wallet where these transactions are stored.
+                The transactions are well secure and managed and to be a part of this
+                network, platforms such as exchanges and peer-to-peer transactions are
+                available. There are over 6,700 cryptocurrencies traded globally. The
+                rising giant player in the cryptocurrency market is the decentralized
+                crypto exchange system. It allows new coins to get listed for free,
+                invariably allowing users new investment opportunities, friction-less and
+                almost gas-free. DEX exchanges are fast, reliable, and easy to use.
+                Another perk is that they come with amazing liquidity benefits,
+                including users’ rewarding for helping the platform thrive. In this
+                environment, SafeBTC is coming to the market combining the best
+                benefits for institutional and retail investors. With the skyrocketing
+                adoption of blockchain, delving into trending opportunities is a smart
+                move for any investor
                 </Text>
               </SectionTitle>
 

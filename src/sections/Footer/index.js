@@ -54,33 +54,6 @@ const Footer = () => {
                     //   <a>Web Design</a>
                     // </Link>
                   </ListItem>
-                  <ListItem>
-                    NETWORK: BINANCE SMARTCHAIN
-                    // <Link href="#">
-                    //   <a>Web Development</a>
-                    // </Link>
-                  </ListItem>
-                  <ListItem>
-                    DECIMAL: 9
-                    // <Link href="#">
-                    //   <a>UXUI Design</a>
-                    // </Link>
-                  </ListItem>
-                  // <ListItem>
-                  //   <Link href="#">
-                  //     <a>Graphics Design</a>
-                  //   </Link>
-                  // </ListItem>
-                  // <ListItem>
-                  //   <Link href="#">
-                  //     <a>Software development</a>
-                  //   </Link>
-                  // </ListItem>
-                  // <ListItem>
-                  //   <Link href="#">
-                  //     <a>Content</a>
-                  //   </Link>
-                  // </ListItem>
                 </List>
               </Box>
             </Col> */}
@@ -95,7 +68,7 @@ const Footer = () => {
                   </ListItem>
                   <ListItem>
                     <Link href="https://www.hotbit.io/exchange?symbol=KOSHU_USDT">
-                      <a>Buy HOTBIT</a>
+                      <a>Koshu on HOTBIT</a>
                     </Link>
                   </ListItem>
                   <ListItem>
@@ -105,29 +78,9 @@ const Footer = () => {
                   </ListItem>
                   <ListItem>
                     <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbf5957be42917e3f3b4fe214421c0571d21ad254">
-                      <a>Pancakeswap v2</a>
+                      <a>Koshu on Pancakeswap v2</a>
                     </Link>
                   </ListItem>
-                  {/* <ListItem>
-                    <Link href="#">
-                      <a>Team</a>
-                    </Link>
-                  </ListItem> */}
-                  {/* <ListItem>
-                    <Link href="#">
-                      <a>Plan & Pricing</a>
-                    </Link>
-                  </ListItem> */}
-                  {/* <ListItem>
-                    <Link href="#">
-                      <a>Content</a>
-                    </Link>
-                  </ListItem> */}
-                  {/* <ListItem>
-                    <Link href="#">
-                      <a>Company News</a>
-                    </Link>
-                  </ListItem> */}
                 </List>
               </Box>
             </Col>

@@ -28,10 +28,11 @@ const Awards = () => {
                     tokens and participated like everyone else. Every trade contributes 
                     towards automatically generating liquidity that goes into multiple 
                     pools used by exchanges. 
-                  </Text>
-                  <Heading as="h6">Token Name: - KOSHU INU </Heading>
-                  <Heading as="h6">Token Symbol: - KOSHU </Heading>
-                  <Heading as="h6">Token type: - Bep20 (BSC Chain) </Heading>
+                  </Text> 
+                  
+                  <Text as="h4">Token Name: - KOSHU INU </Text>
+                  <Text as="h4">Token Symbol: - KOSHU </Text>
+                  <Text as="h4">Token type: - Bep20 (BSC Chain) </Text>
                 </SectionTitle>
               </Box>
             </Col>
