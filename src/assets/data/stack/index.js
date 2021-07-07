@@ -1,4 +1,4 @@
-import safeBTCLogo from "assets/images/icons/safebtc.png";
+import safeBTCLogo from "assets/images/icons/safebtc.svg";
 import javascriptLogo from "assets/images/languages/javascript.png";
 import pythonLogo from "assets/images/languages/python.png";
 import reactLogo from "assets/images/languages/react.png";
