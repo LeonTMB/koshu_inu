@@ -1,4 +1,4 @@
-import githubLogo from "assets/images/languages/github.png";
+import safeBTCLogo from "assets/images/icons/safebtc.svg";
 import javascriptLogo from "assets/images/languages/javascript.png";
 import pythonLogo from "assets/images/languages/python.png";
 import reactLogo from "assets/images/languages/react.png";
@@ -8,8 +8,8 @@ export default {
   stack: [
     {
       url: "https://www.hotbit.io/exchange?symbol=RYOSHI_USDT",
-      imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/all-150x150.png",
-      name: "Hotbit",
+      imageSrc: safeBTCLogo,
+      name: "SafeBTC",
     },
     {
       url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9",
