@@ -24,7 +24,7 @@ const Data = {
       offset: "-100"
     },
     {
-      name: "Service",
+      name: "currency",
       path: "service",
       offset: "-120"
     },

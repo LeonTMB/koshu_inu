@@ -20,13 +20,19 @@ const Awards = () => {
               <Box className="awards-left-content">
                 <SectionTitle>
                   <SectionBackground>
-                    <Heading as="h1">Largest Achievements</Heading>
+                    <Heading as="h1">Community</Heading>
                   </SectionBackground>
                   <Text>
-                    Attention in when in just something bread not hundred well,
-                    muff value emerge on the known officers. A parameters phase
-                    orthographic the can differentiates far catch.
-                  </Text>
+                    We are a community Driven token, which means that we are nothing 
+                    without our community. The development team have burnt all of their 
+                    tokens and participated like everyone else. Every trade contributes 
+                    towards automatically generating liquidity that goes into multiple 
+                    pools used by exchanges. 
+                  </Text> 
+                  
+                  <Text as="h4">Token Name: - KOSHU INU </Text>
+                  <Text as="h4">Token Symbol: - KOSHU </Text>
+                  <Text as="h4">Token type: - Bep20 (BSC Chain) </Text>
                 </SectionTitle>
               </Box>
             </Col>

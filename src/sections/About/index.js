@@ -39,19 +39,29 @@ const About = () => {
                                         </Heading>
                                     </SectionBackground>
                                     
-                                    <Text>Intended village pay like…. Discipline would, interesting that I off easier bathroom covered project the away, man you their by a temple prisoners. Have as her of your of in many, searched had class. Had with one entire children away. Problem got boss.</Text>
-                                </SectionTitle>  
+                                    <Text>
+                                        Safety and protection of token holders is the number 1 priority for the
+                                        SafeBTC community and development team and necessary security
+                                        measures are in place to ensure this is achieved. Some of which are:
+                                    </Text> 
 
-                                <Box className="about-list">
-                                    <Text as="span">75% Distributed to Community.</Text>
-                                    <Text as="span">13% Reserved Funding.</Text>
-                                    <Text as="span">9% Founders and Team Management.</Text>
-                                </Box>
+                                    <Box className="about-list">
+                                        <Text as="span">Ownership renounced</Text>
+                                        <Text as="span">First Audit completed with to results</Text>
+                                        <Text as="span">Second  Audit in progress</Text>
+                                    </Box>
+                                    
+                                    <Text>
+                                        These mechanisms are suitable as a way of giving users the needed
+                                        assurance to invest in the network. More features are currently being
+                                        developed for the efficacy of the platform.
+                                    </Text>
+                                </SectionTitle>
 
-                                <Box className="about-btn-wrapper">
+                                {/* <Box className="about-btn-wrapper">
                                     <Link href="#" ><a className="btn btn-fill"> <FaGooglePlay /> Google Play</a></Link>
                                     <Link href="#"><a className="btn"><FaApple /> Apple Store</a></Link>
-                                </Box>
+                                </Box> */}
                             </Box>
                         </Col>
                     </Row>

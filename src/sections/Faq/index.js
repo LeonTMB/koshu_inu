@@ -38,8 +38,7 @@ const Faq = () => {
                 <Heading>Frequently asked questions</Heading>
               </SectionBackground>
               <Text>
-                Attention in when in just something bread not hundred well, muff
-                value emerge on the known officers.
+                Get all the answers you need on Block Chain Technology, Koshu Inu and SafeBTC
               </Text>
             </SectionTitle>
           </Col>

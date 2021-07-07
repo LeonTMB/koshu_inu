@@ -15,7 +15,7 @@ import Stack from "sections/Stack";
 import Faq from "sections/Faq";
 import Footer from "sections/Footer";
 
-import FavIcon from "assets/images/fav-icon.png";
+import FavIcon from "assets/images/fav-icon.jpg";
 import theme from "assets/theme/theme";
 import GlobalStyle from "assets/theme";
 
