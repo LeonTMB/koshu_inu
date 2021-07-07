@@ -8,6 +8,7 @@ import Service from "sections/Service";
 import CoinFund from "sections/CoinFund";
 import About from "sections/About";
 import Awards from "sections/Awards";
+import RoadMap from "sections/RoadMap";
 import UserMap from "sections/UserMap";
 import Wallet from "sections/Wallet";
 import Statistics from "sections/Statistics";
@@ -37,6 +38,7 @@ const Home = () => {
       <CoinFund />
       <About />
       <Awards />
+      <RoadMap />
       <UserMap />
       <Wallet />
       <Statistics />
