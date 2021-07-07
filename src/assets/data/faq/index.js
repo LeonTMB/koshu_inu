@@ -73,6 +73,16 @@ export default {
                     notice your holdings steadily increasing.
                 `
             },
+            {
+                title: "What is the token economics of SafeBTC?",
+                body: `Having constant “burns” is a way of keeping the community rewarded
+                    and increasing the value of the token as a consequence of the constantly
+                    shrinking supply. At launch, 50% of the total supply was instantly
+                    burned. 23.7% was allocated for a minimal presale that sold our instantly
+                    and another 23.7% was plowed into liquidity while the remaining 2.5%
+                    was secured for marketing, operations and future developments
+                `
+            },
         ] 
     },
     { 

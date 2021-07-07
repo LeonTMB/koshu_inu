@@ -78,7 +78,7 @@ const Footer = () => {
                   </ListItem>
                   <ListItem>
                     <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbf5957be42917e3f3b4fe214421c0571d21ad254">
-                      <a>Koshu on Pancakeswap v2</a>
+                      <a>Buy Koshu on Pancakeswap v2</a>
                     </Link>
                   </ListItem>
                 </List>

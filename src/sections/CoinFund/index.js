@@ -6,7 +6,10 @@ import { Container, Row, Col } from "reusecore/Layout";
 import Box from "reusecore/Box";
 import Heading from "reusecore/Heading";
 import Text from "reusecore/Text";
+import Image from "reusecore/Image";
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
+
+import blockchain from "assets/images/kinu_assets/blockchain.jpg";
 
 import {
   FaBitcoin,
@@ -38,6 +41,11 @@ const CoinFund = () => {
         <Row>
           <Col className="lg-6 md-12 ">
             <Box className="coin-fund-content-left">
+                <Image src={blockchain} alt="Blockchain" />
+            </Box>
+          </Col>
+          <Col className="lg-6 md-12 ">
+            <Box className="coin-fund-content-left">
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
@@ -56,26 +64,7 @@ const CoinFund = () => {
                 </Text>
               </SectionTitle>
 
-              <Box className="btn-wrapper">
-                <Link href="#">
-                  <a className="btn btn-fill">Buy Token</a>
-                </Link>
-              </Box>
-            </Box>
-          </Col>
-          <Col className="lg-6 md-12 countdown-wrap">
-            <Box className="countdown-wrapper">
-              <Text> Last moment to grab the token </Text>
-              <CountdownTimer {...settings} />
-            </Box>
-            <Box className="progressbar-wrapper">
-              <Box className="progressbar">
-                <Text as="span">$5,097</Text>
-              </Box>
-              <Text as="span">$11,931</Text>
-            </Box>
-
-            <Box className="payment-getway">
+              {/* <Box className="payment-getway">
               <Text as="span">
                 {" "}
                 <FaBitcoin />{" "}
@@ -92,7 +81,50 @@ const CoinFund = () => {
                 {" "}
                 <FaCcDiscover />{" "}
               </Text>
+              </Box> */}
+
+              <Box className="btn-wrapper">
+                <Link href="#">
+                  <a className="btn btn-fill">Buy Token</a>
+                </Link>
+              </Box>
             </Box>
+          </Col>
+          <Col className="lg-6 md-12 ">
+                  <Heading>
+                  HISTORY OF SAFEBTC AND THE WAY FORWARD 
+                  </Heading>
+            <Box className="coin-fund-content-left">
+              <Text>
+                SafeBTC was established in March 2021, with its 50% of supply burned
+                and ownership renounced. It listed on PancakeSwap shortly after and
+                marketing started right away. Communities have grown to tens of
+                thousands and there is no end in sight. Next developments include live
+                charts, a dex pad, a multi-platform wallet, prices aggregator,
+                merchandise, NFT launches and more.
+              </Text>
+            </Box>
+          </Col>
+          {/* <Col className="lg-6 md-12 ">
+                  <Heading>
+                  BLOCK CHAIN TECHNOLOGY 
+                  </Heading>
+            <Box className="coin-fund-content-left">
+                <Image src={blockchain} alt="Blockchain" />
+            </Box>
+          </Col> */}
+          <Col className="lg-6 md-12 countdown-wrap">
+            <Box className="countdown-wrapper">
+              <Text> Last moment to grab the token </Text>
+              <CountdownTimer {...settings} />
+            </Box>
+            <Box className="progressbar-wrapper">
+              <Box className="progressbar">
+                <Text as="span">$5,097</Text>
+              </Box>
+              <Text as="span">$11,931</Text>
+            </Box>
+
           </Col>
         </Row>
       </Container>

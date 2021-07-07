@@ -6,7 +6,7 @@ import Box from "reusecore/Box";
 import Heading from "reusecore/Heading";
 import Image from "reusecore/Image";
 
-import statisticsImage1 from "assets/images/chart/token-chart-1.png";
+import statisticsImage1 from "assets/images/chart/pie.jpg";
 import statisticsImage2 from "assets/images/chart/token-chart-2.png";
 
 import StatisticsSectionWrapper from "./statistics.style";
