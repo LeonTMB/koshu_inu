@@ -8,10 +8,7 @@ import { Container, Row, Col } from 'reusecore/Layout'
 import Box from 'reusecore/Box';
 import Heading from 'reusecore/Heading';
 import Text from 'reusecore/Text';
-import Image from 'reusecore/Image';
 import {SectionTitle, SectionBackground} from 'reusecore/SectionTitle';
-
-import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 import aboutImage from 'assets/images/about/about.svg';
 

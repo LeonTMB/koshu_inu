@@ -8,7 +8,8 @@ import Image from "reusecore/Image";
 import Counter from "reusecore/Counter";
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
 
-import walletImage from "assets/images/wallet-image.svg";
+// import walletImage from "assets/images/wallet-image.svg";
+import walletImage from "assets/images/kinu_assets/stat.jpg";
 import SectionParticle from "assets/images/particles/crypto-managment-wallet.svg";
 
 import data from "assets/data/wallet";
@@ -26,6 +27,7 @@ const Wallet = () => {
         <Row>
           <Col className="lg-5 md-4 xs-12">
             <Box className="wallet-image">
+              {/* <Image src={walletImage} alt="cryptik wallet image" /> */}
               <Image src={walletImage} alt="cryptik wallet image" />
             </Box>
           </Col>
@@ -64,14 +66,14 @@ const Wallet = () => {
                 </Text>
               </SectionTitle>
 
-              <Box className="wallet-info">
+              {/* <Box className="wallet-info">
                 {data.wallet.map((item, index) => (
                   <Box className="counter-item" key={index}>
                     <Counter end={item.count} suffix={item.suffixText} />
                     <Text>{item.body}</Text>
                   </Box>
                 ))}
-              </Box>
+              </Box> */}
             </Box>
           </Col>
         </Row>
