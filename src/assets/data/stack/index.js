@@ -16,11 +16,6 @@ export default {
       imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/all-150x150.png",
       name: "Hotbit",
     },
-    {
-      url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9",
-      imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/alll-150x150.png",
-      name: "Pancakeswap",
-    },
     // {
     //   url: "#",
     //   imageSrc: pythonLogo,
