@@ -26,26 +26,20 @@ const RoadMap = () => {
                     <Row>
                         <Col className="lg-5 md-6 sm-12 order-md-2">
                             {/* <Image src={aboutImage} className="about-image" alt="cryptik about image" /> */}
-                            <Box>
+                            
+                            <Box className="">
                                 <SectionTitle>
-                                    <SectionBackground>
-                                        <Heading as="h1">
-                                            SAFEBTC ROADMAP
-                                        </Heading>
-                                    </SectionBackground>
-                                    <Text>
-                                        The SafebBTC community and ecosystem aims at building a long-term,
-                                        engaged, trusted and thriving play in the cryptocurrency world.
-                                        Numerous developments have begun and SafeBTC intends to introduce
-                                        constant updates as the community goes. The full roadmap is visible on
-                                        our website and it’s constantly updated.
-                                    </Text>
-                                    <Text>
-                                        SafeBtc is a community of upward-moving members geared towards
-                                        excellence and maximum productivity. You can be a part of SafeBTC by
-                                        joining its channels such as Twitter, Telegram and Medium.
-                                    </Text>
+                                    <Heading as="h3"> MESSAGE FROM THE TEAM TO HOLDERS </Heading>
                                 </SectionTitle>
+
+                                <Text>
+                                    We know the market is highly volatile, but always know that you lose only when you sell,
+                                    holding means you’ve not lost your money, only the value of your money reduced. Once you
+                                    sell, it means you are settling for the loss which is not good enough. 
+                                </Text>
+                                <Text>
+                                    Trust us and Trust the process, KOSHU INU is here to stay 
+                                </Text>
                             </Box>
                         </Col>
                         <Col className="lg-6 md-6 sm-12 order-md-1">
@@ -105,20 +99,6 @@ const RoadMap = () => {
                     <Row>
                         
                         <Col className="sm-12 md-10 offset-md-1">
-                            <Box className="text-center">
-                                <SectionTitle>
-                                    <Heading as="h3"> MESSAGE FROM THE TEAM TO HOLDERS </Heading>
-                                </SectionTitle>
-
-                                <Text>
-                                    We know the market is highly volatile, but always know that you lose only when you sell,
-                                    holding means you’ve not lost your money, only the value of your money reduced. Once you
-                                    sell, it means you are settling for the loss which is not good enough. 
-                                </Text>
-                                <Text>
-                                    Trust us and Trust the process, KOSHU INU is here to stay 
-                                </Text>
-                            </Box>
                         </Col>
                     </Row>
                 </Container> 
