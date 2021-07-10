@@ -1,5 +1,5 @@
 [build]
-  command = "npm run now-build"
+  command = "yarn run now-build"
   publish = "out"
 
 [[plugins]]

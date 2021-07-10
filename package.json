@@ -20,7 +20,7 @@
   "dependencies": {
     "@netlify/plugin-nextjs": "^3.6.3",
     "@zeit/next-css": "^1.0.1",
-    "next": "10.0.6",
+    "next": "10.0.5",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.7",
     "prop-types": "^15.7.2",
