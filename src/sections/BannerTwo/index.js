@@ -47,7 +47,7 @@ const BannerTwo = () => {
               </Heading>
               <Text as="span" className="description">
                 KOSHU is an experiment in a decentralized spontaneous community building.
-                KOSHU token is our first token and allows users to hold Billions or even Trillions of them.
+                KOSHU token is our first token and allows users to hold Billions.
                 BEP_20 ONLY token can remain well under a penny and still outpace in a small amount of time
                 Popular worldwide, and already up thousands of percent.
               </Text>
