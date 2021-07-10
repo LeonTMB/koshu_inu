@@ -46,10 +46,10 @@ const BannerTwo = () => {
                 Father of Shib and Akita
               </Heading>
               <Text as="span" className="description">
-                {/* KOSHU is an experiment in a decentralized spontaneous community building.
+                KOSHU is an experiment in a decentralized spontaneous community building.
                 KOSHU token is our first token and allows users to hold Billions or even Trillions of them.
                 BEP_20 ONLY token can remain well under a penny and still outpace in a small amount of time
-                Popular worldwide, and already up thousands of percent. */}
+                Popular worldwide, and already up thousands of percent.
               </Text>
 
               <Box className="coin-info">
