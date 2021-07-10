@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import Navigation from "sections/Navigation";
 import BannerTwo from 'sections/BannerTwo';
 // import Service from "sections/Service";
-import CoinFund from "sections/CoinFund";
+// import CoinFund from "sections/CoinFund";
 import About from "sections/About";
 import Awards from "sections/Awards";
 import RoadMap from "sections/RoadMap";
@@ -35,7 +35,7 @@ const Home = () => {
       <BannerTwo />
       <Stack />
       {/* <Service /> */}
-      <CoinFund />
+      {/* <CoinFund /> */}
       <About />
       <Awards />
       <RoadMap />

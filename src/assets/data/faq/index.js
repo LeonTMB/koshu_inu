@@ -35,71 +35,20 @@ export default {
         ] 
     },
     // { 
-    //     name: "SafeBTC",
+    //     name: "General",
     //     items: [
     //         {
-    //             title: "Who can use safeBTC?",
-    //             body: `Any interested participant can be a part of the SafeBtc network and
-    //             community. SafeBTC has no institutional or investors ownership. Original
-    //             developer and creator renounced to his ownership and SafeBTC is now a
-    //             fully community-owned token. This is enabling SafeBTC to build a global
-    //             brand of a safe, trusted, fair, border-less and friction-less, gas-free
-    //             cryptocurrency combining Store-of-Value and passive income. SafeBTC
-    //             has been fully audited and declared safe`
-    //         },
-    //         {
-    //             title: "Why is safeBTC different?",
-    //             body: `SafeBTC makes use of a decentralized exchange (DEX). A quick
-    //             explanation of this is that third-party entities responsible for the security
-    //             and transfer of assets are not part of the chain. By the third party, we
-    //             refer to the government of countries, central banks, and other financial
-    //             systems. Power is completely dispersed from such entities and placed in
-    //             the hands of the users
-    //             As a decentralized financial entity, its operations are run by a network of
-    //             users making it very secure. The transactions are confirmed and
-    //             recorded on the Blockchain and not by third parties.
-    //             The vertical and horizontal scaling of the software application creates a
-    //             system that allows for authentication, database, and accounts recording.
-    //             Due to this, there is an elimination of user fees, fraud, and theft. SafeBTC
-    //             runs on the Binance Smart Chain and is currently listed on BSC dex
-    //             exchange: PancakeSwap.`
-    //         },
-    //         {
-    //             title: "Why does the safeBTC fluctuate?",
-    //             body: `SafeBTC price fluctuates following the standard supply and demand
-    //                 basics of finance and economics. Its shrinking supply is allowing for
-    //                 higher price floors. On our website you can see a live tracker of its price,
-    //                 circulating supply, burned supply. If you are a token holder, you will
-    //                 notice your holdings steadily increasing.
-    //             `
-    //         },
-    //         {
-    //             title: "What is the token economics of SafeBTC?",
-    //             body: `Having constant “burns” is a way of keeping the community rewarded
-    //                 and increasing the value of the token as a consequence of the constantly
-    //                 shrinking supply. At launch, 50% of the total supply was instantly
-    //                 burned. 23.7% was allocated for a minimal presale that sold our instantly
-    //                 and another 23.7% was plowed into liquidity while the remaining 2.5%
-    //                 was secured for marketing, operations and future developments
-    //             `
+    //             title: "What is Block Chain Technology?",
+    //             body: `Decentralization is not a new concept. When building a technology solution, three primary
+    //             network architectures are typically considered: centralized, distributed, and decentralized. While
+    //             blockchain technologies often make use of decentralized networks, a blockchain application
+    //             itself cannot be categorized simply as being decentralized or not. Rather, decentralization is a
+    //             sliding scale and should be applied to all aspects of a blockchain application. By decentralizing
+    //             the management of and access to resources in an application, greater and fairer service can be
+    //             achieved. Decentralization typically has some tradeoffs such as lower transaction throughput, but
+    //             ideally, the tradeoffs are worth the improved stability and service levels they produce. `
     //         },
     //     ] 
     // },
-    { 
-        name: "General",
-        items: [
-            {
-                title: "What is Block Chain Technology?",
-                body: `Decentralization is not a new concept. When building a technology solution, three primary
-                network architectures are typically considered: centralized, distributed, and decentralized. While
-                blockchain technologies often make use of decentralized networks, a blockchain application
-                itself cannot be categorized simply as being decentralized or not. Rather, decentralization is a
-                sliding scale and should be applied to all aspects of a blockchain application. By decentralizing
-                the management of and access to resources in an application, greater and fairer service can be
-                achieved. Decentralization typically has some tradeoffs such as lower transaction throughput, but
-                ideally, the tradeoffs are worth the improved stability and service levels they produce. `
-            },
-        ] 
-    },
   ],
 };
