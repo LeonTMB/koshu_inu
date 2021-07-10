@@ -11,8 +11,8 @@ import Awards from "sections/Awards";
 import UserMap from "sections/UserMap";
 import Wallet from "sections/Wallet";
 import Statistics from "sections/Statistics";
-import Stack from "sections/Stack"; 
-import Faq from "sections/Faq";
+// import Stack from "sections/Stack"; 
+// import Faq from "sections/Faq";
 import Footer from "sections/Footer";
 
 import FavIcon from "assets/images/fav-icon.png";
@@ -32,15 +32,15 @@ const Home = () => {
       <GlobalStyle />
       <Navigation />
       <BannerThree />
-      <Service />
-      <CoinFund />
-      <About />
-      <Awards />
-      <UserMap />
+      {/* <Service /> */}
+      {/* <CoinFund /> */}
+      {/* <About /> */}
+      {/* <Awards /> */}
+      {/* <UserMap /> */}
       <Wallet />
-      <Statistics />
-       <Faq />
-      <Stack />
+      {/* <Statistics /> */}
+       {/* <Faq /> */}
+      {/* <Stack /> */}
       <Footer />
     </ThemeProvider>
   );

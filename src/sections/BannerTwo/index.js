@@ -68,10 +68,10 @@ const BannerTwo = () => {
               </Box>
 
               <Box className="banner-btn">
-                <Link href="#">
+                <Link href="/white-paper">
                   <a className="btn btn-fill"> 
                   {/* <FaGithub />  */}
-                  Buy Koshu</a>
+                  White Paper</a>
                 </Link> 
               </Box>
             </Box>
