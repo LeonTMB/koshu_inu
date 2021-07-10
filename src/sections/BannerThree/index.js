@@ -58,20 +58,20 @@ const BannerThree = () => {
             <Col className="lg-8 md-10 xs-12">
               <Box className="banner-content">
                 <Heading as="h1">
-                  The most trusted <br /> Digital asset exchange
+                  White Paper <br /> 
                 </Heading>
                 <Text>
-                  The highly the not having with lively. Our up with ran go her{" "}
+                  {/* The highly the not having with lively. Our up with ran go her{" "} */}
                   <br />
-                  it gloomy the back, though however projected not for six with{" "}
+                  {/* it gloomy the back, though however projected not for six with{" "} */}
                   <br />
-                  then, trusted as concepts belt.
+                  {/* then, trusted as concepts belt. */}
                 </Text>
 
-                <Box className="input-box">
+                {/* <Box className="input-box">
                   <Input type="email" placeholder="Enter your email" />
                   <Button>Create Account</Button>
-                </Box>
+                </Box> */}
               </Box>
             </Col>
           </Row>
