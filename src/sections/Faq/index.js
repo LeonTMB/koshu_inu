@@ -38,7 +38,7 @@ const Faq = () => {
                 <Heading>Frequently asked questions</Heading>
               </SectionBackground>
               <Text>
-                Get all the answers you need on Block Chain Technology, Koshu Inu and SafeBTC
+                Get all the answers you need on Block Chain Technology and Koshu Inu
               </Text>
             </SectionTitle>
           </Col>

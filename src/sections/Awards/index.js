@@ -30,9 +30,9 @@ const Awards = () => {
                     pools used by exchanges. 
                   </Text> 
                   
-                  <Text as="h4">Token Name: - KOSHU INU </Text>
-                  <Text as="h4">Token Symbol: - KOSHU </Text>
-                  <Text as="h4">Token type: - Bep20 (BSC Chain) </Text>
+                  <Text as="span">Token Name: - KOSHU INU </Text>
+                  <Text as="span">Token Symbol: - KOSHU </Text>
+                  <Text as="span">Token type: - Bep20 (BSC Chain) </Text>
                 </SectionTitle>
               </Box>
             </Col>
