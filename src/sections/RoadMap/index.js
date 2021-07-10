@@ -100,6 +100,27 @@ const RoadMap = () => {
                             </Box>
                         </Col>
                     </Row>
+
+                    <br />
+                    <Row>
+                        
+                        <Col className="sm-12 md-10 offset-md-1">
+                            <Box className="text-center">
+                                <SectionTitle>
+                                    <Heading as="h3"> MESSAGE FROM THE TEAM TO HOLDERS </Heading>
+                                </SectionTitle>
+
+                                <Text>
+                                    We know the market is highly volatile, but always know that you lose only when you sell,
+                                    holding means you’ve not lost your money, only the value of your money reduced. Once you
+                                    sell, it means you are settling for the loss which is not good enough. 
+                                </Text>
+                                <Text>
+                                    Trust us and Trust the process, KOSHU INU is here to stay 
+                                </Text>
+                            </Box>
+                        </Col>
+                    </Row>
                 </Container> 
         </AboutSectionWrapper>
     )

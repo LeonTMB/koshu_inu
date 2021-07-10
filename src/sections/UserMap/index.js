@@ -21,9 +21,9 @@ const UserMap = () => {
               <SectionTitle className="text-center">
                 <Heading>Own Bilions of Koshu Inu worldwide</Heading>
                 <Text>
-                  Attention in when in just something bread not hundred well,
+                  {/* Attention in when in just something bread not hundred well,
                   muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates.
+                  orthographic the can differentiates. */}
                 </Text>
               </SectionTitle>
             </Col>
