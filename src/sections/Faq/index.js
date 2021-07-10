@@ -38,7 +38,7 @@ const Faq = () => {
                 <Heading>Frequently asked questions</Heading>
               </SectionBackground>
               <Text>
-                Get all the answers you need on Block Chain Technology, Koshu Inu and SafeBTC
+                Get all the answers you need on Block Chain Technology and Koshu Inu
               </Text>
             </SectionTitle>
           </Col>
@@ -82,11 +82,11 @@ const Faq = () => {
             </Box>
           </Col>
           <Col className="md-5 offset-md-1 offset-xs-0 xs-12">
-            <Image
+            {/* <Image
               src={faqImage}
               alt="cryptik faq image"
               className="faq-image"
-            />
+            /> */}
           </Col>
         </Row>
       </Container>

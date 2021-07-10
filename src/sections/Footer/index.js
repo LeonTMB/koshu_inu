@@ -22,13 +22,13 @@ const Footer = () => {
         <Subscribe />
         <Container>
           <Row>
-            <Col className="lg-3 sm-6">
+            {/* <Col className="lg-3 sm-6">
               <Box className="footer-widgets company-desc">
                 <Image src={cryptikFooterLogo} alt="Koshu footer logo" />
                 <Text>
                 </Text>
 
-                {/* <Box className="contact-info">
+                <Box className="contact-info">
                   <Link href="#">
                     <a>
                       {" "}
@@ -41,9 +41,9 @@ const Footer = () => {
                       <FaEnvelope /> +88 {" "}
                     </a>
                   </Link>
-                </Box> */}
+                </Box>
               </Box>
-            </Col>
+            </Col> */}
             {/* <Col className="lg-3 sm-6">
               <Box className="footer-widgets">
                 <Heading as="h2">Service</Heading>
@@ -71,11 +71,11 @@ const Footer = () => {
                       <a>Koshu on HOTBIT</a>
                     </Link>
                   </ListItem>
-                  <ListItem>
+                  {/* <ListItem>
                     <Link href="#">
                       <a>Lbank</a>
                     </Link>
-                  </ListItem>
+                  </ListItem> */}
                   <ListItem>
                     <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbf5957be42917e3f3b4fe214421c0571d21ad254">
                       <a>Buy Koshu on Pancakeswap v2</a>
@@ -98,13 +98,13 @@ const Footer = () => {
           </Row>
           <Row>
             <Col className="xs-12">
-              <Box className="footer-social-links">
+              {/* <Box className="footer-social-links">
                 {data.links.map((item, index) => (
                   <Link href={item.url} key={index}>
                     <a> {item.icon} </a>
                   </Link>
                 ))}
-              </Box>
+              </Box> */}
 
               <Box className="copyright-text">
                 <Text>&copy;2017 - {new Date().getFullYear()} Koshu Inu | All right reserved. </Text>
