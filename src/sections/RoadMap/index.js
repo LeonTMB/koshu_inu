@@ -47,7 +47,7 @@ const RoadMap = () => {
                                 <SectionTitle>
                                     <SectionBackground>
                                         <Heading as="h1">
-                                            KOSHU INU ROADMAP
+                                            ROADMAP
                                         </Heading>
                                     </SectionBackground> 
                                 </SectionTitle>
@@ -59,11 +59,11 @@ const RoadMap = () => {
                                     <Text>
                                         1.  Website Development
                                         <br />
-                                        2.  Presale
+                                        2.  Presale in bounce swap
                                         <br />
-                                        3.  Official launch on Pancake
+                                        3.  Official launch in Pancake swap
                                         <br />
-                                        4.  Listing on Hotbit
+                                        4.  Listing in Hotbit exchange
                                     </Text>
 
                                     <Box className="about-list">
@@ -71,13 +71,9 @@ const RoadMap = () => {
                                     </Box>
                                     
                                     <Text>
-                                        5.  Airdrop distribution to the first 10K airdrop members
+                                        5.  Website, Roadmap and Whitepaper re-design and update.
                                         <br />
-                                        6.  Website redesign and and upgraded
-                                        <br />
-                                        7.  Coingecko
-                                        <br />
-                                        8.  CoinMarketCap
+                                        6.  Airdrop distribution to first 10k airdrop members
                                     </Text> 
 
                                     <Box className="about-list">
@@ -85,10 +81,14 @@ const RoadMap = () => {
                                     </Box>
                                     
                                     <Text>
+                                        7.  Coingecko listing
+                                        <br />
+                                        8.  Trust Wallet Logo application
                                         9.  Probit or Coinsbit Listing
                                         <br />
-                                        10.  Product development
+                                        10.  CoinMarketCap listing
                                         <br />
+                                        11.  Product Development.
                                     </Text> 
                                 
                             </Box>

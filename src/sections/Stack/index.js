@@ -19,7 +19,7 @@ const Stack = () => {
           <Row>
             <Col className="offset-lg-3 offset-md-1 lg-6 md-10  sm-12">
               <SectionTitle>
-                <Heading> Crypto Currencies we sell</Heading>
+                <Heading> KOSHU INU IS LISTED IN</Heading>
                 {/* <Text>
                   Attention in when in just something bread not hundred well,
                   muff value emerge on the known officers.

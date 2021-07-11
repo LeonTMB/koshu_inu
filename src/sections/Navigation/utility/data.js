@@ -1,8 +1,8 @@
 const Data = {
   menuItems: [
     {
-      name: "Home",
-      path: "/",
+      // name: "Home",
+      // path: "/",
       // subItems: [
         // {
         //   name: "Home Two",
@@ -18,21 +18,21 @@ const Data = {
         // }
       // ]
     },
-    {
-      name: "About",
-      path: "about",
-      offset: "-100"
-    },
-    {
-      name: "currency",
-      path: "service",
-      offset: "-120"
-    },
-    {
-      name: "Token",
-      path: "token",
-      offset: "-100"
-    },
+    // {
+    //   name: "About",
+    //   path: "about",
+    //   offset: "-100"
+    // },
+    // {
+    //   name: "White Paper",
+    //   path: "/white-paper",
+      // offset: "-120"
+    // },
+    // {
+    //   name: "Token",
+    //   path: "token",
+    //   offset: "-100"
+    // },
    
     // {
     //   name: "Pages",
@@ -56,16 +56,16 @@ const Data = {
     //     }
     //   ]
     // },
-    {
-      name: "FAQ",
-      path: "faq",
-      offset: "-60"
-    },
-    {
-      name: "Contact",
-      path: "contact",
-      offset: "-70"
-    }
+    // {
+    //   name: "FAQ",
+    //   path: "faq",
+    //   offset: "-60"
+    // },
+    // {
+    //   name: "Contact",
+    //   path: "contact",
+    //   offset: "-70"
+    // }
   ]
 };
 export default Data;
