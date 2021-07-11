@@ -7,12 +7,12 @@ import rubyLogo from "assets/images/languages/ruby.png";
 export default {
   stack: [
     {
-      url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x0e5f989ce525acc4ee45506af91964f7f4c9f2e9",
+      url: "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbf5957be42917e3f3b4fe214421c0571d21ad254",
       imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/alll-150x150.png",
       name: "Pancakeswap",
     },
     {
-      url: "https://www.hotbit.io/exchange?symbol=RYOSHI_USDT",
+      url: "https://www.hotbit.io/exchange?symbol=KOSHU_USDT",
       imageSrc: "https://ryoshitoken.com/wp-content/uploads/2021/07/all-150x150.png",
       name: "Hotbit",
     },

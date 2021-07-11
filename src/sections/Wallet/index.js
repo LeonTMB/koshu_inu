@@ -73,7 +73,7 @@ const Wallet = () => {
                 <Text as="p">Token Symbol: - KOSHU </Text>
                 <Text as="p">Token type: - Bep20 (BSC Chain) </Text>
                 <Text as="p">Decimals: - 9 </Text>
-                <Text as="p">Contract Address: 0xbf5957be42917e3f3b4fe214421c0571d21ad254 </Text>
+                <Text as="p">Contract Address: 0xbf5957be<span>42917</span>e3f3b4fe<span>214421</span>c0571d21ad254 </Text>
                 <Text as="p">Token type: - Bep20 (BSC Chain)  </Text>
                 <Text as="p">Total supply: - 100,000,000,000 </Text>
                 <Text as="p">Burned: 6,000,000,000 </Text>

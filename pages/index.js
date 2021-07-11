@@ -25,7 +25,7 @@ const Home = () => {
     <ThemeProvider theme={theme}>
       <Head>
       <title>Koshu Inu | Father of Shib and Akita</title>
-        <meta name="Description" content="Koshu Inu | Father of Shib and Akita" />
+        <meta name="Description" content="KOSHU is an experiment in a decentralized spontaneous community building. KOSHU token is our first token and allows users to hold Billions. BEP_20 ONLY token can remain well under a penny and still outpace in a small amount of time Popular worldwide, and already up thousands of percent." />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
       </Head>
@@ -38,7 +38,7 @@ const Home = () => {
       {/* <CoinFund /> */}
       {/* <About /> */}
       <Awards />
-      {/* <RoadMap /> */}
+      <RoadMap />
       <UserMap />
       {/* <Wallet /> */}
       {/* <Statistics /> */}
