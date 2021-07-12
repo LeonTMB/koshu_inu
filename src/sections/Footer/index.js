@@ -93,13 +93,13 @@ const Footer = () => {
           </Row>
           <Row>
             <Col className="xs-12">
-              {/* <Box className="footer-social-links">
+              <Box className="footer-social-links">
                 {data.links.map((item, index) => (
                   <Link href={item.url} key={index}>
-                    <a> {item.icon} </a>
+                    <a title={item.title}> {item.icon} </a>
                   </Link>
                 ))}
-              </Box> */}
+              </Box>
 
               <Box className="copyright-text">
                 <Text>&copy;2017 - {new Date().getFullYear()} Koshu Inu | All right reserved. </Text>
