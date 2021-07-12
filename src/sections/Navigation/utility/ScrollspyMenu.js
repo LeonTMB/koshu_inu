@@ -51,6 +51,11 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
           <a>White Paper</a>
         </Link>
       </li>
+      <li>
+        <Link href="/#roadmap" className="nav__button">
+          <a>Roadmap</a>
+        </Link>
+      </li>
       {/* <li>
         <button className="nav__button">
           Get in Touch

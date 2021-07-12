@@ -43,7 +43,7 @@ const RoadMap = () => {
                             </Box>
                         </Col>
                         <Col className="lg-6 md-6 sm-12 order-md-1">
-                            <Box className="about-right-content">
+                            <Box className="about-right-content" id="roadmap">
                                 <SectionTitle>
                                     <SectionBackground>
                                         <Heading as="h1">
@@ -84,6 +84,7 @@ const RoadMap = () => {
                                         7.  Coingecko listing
                                         <br />
                                         8.  Trust Wallet Logo application
+                                        <br />
                                         9.  Probit or Coinsbit Listing
                                         <br />
                                         10.  CoinMarketCap listing
