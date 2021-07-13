@@ -35,7 +35,10 @@ const Subscribe = () => {
                       type="text"
                       placeholder="Enter your email address . . ."
                     />
-                    <Button>Subscribe</Button>
+                    <Button>
+                      <a href="https://eloshines.us6.list-manage.com/subscribe/post?u=ca579a4ea45be6f429ef3e412&amp;id=c739f77aca">
+                        Subscribe</a>
+                    </Button>
                   </Box>
                 </Col>
               </Row>
