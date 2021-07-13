@@ -8,11 +8,14 @@ import Image from "reusecore/Image";
 import Counter from "reusecore/Counter";
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
 
-import walletImage from "assets/images/wallet-image.svg";
+// import walletImage from "assets/images/wallet-image.svg";
+import walletImage from "assets/images/kinu_assets/stat.jpg";
 import SectionParticle from "assets/images/particles/crypto-managment-wallet.svg";
 
 import data from "assets/data/wallet";
 import WalletSectionWrapper from "./wallet.style";
+
+import awardsdata from "assets/data/awards";
 
 const Wallet = () => {
   return (
@@ -24,54 +27,136 @@ const Wallet = () => {
           alt="cryptik"
         />
         <Row>
+          <Col className="md-10 offset-md-1">
+            <Box className="text-center">
+              <SectionTitle>
+                <SectionBackground>
+                  <Heading as="h1">Our Vision</Heading>
+                </SectionBackground>
+              </SectionTitle>
+
+              <Text>
+                According to many Japanese use these types of dog for their different uses so our team decide to
+                have a market of selling these types of Dogs like Akita,Shiba Inu and others. 
+              </Text>
+              <Text>
+                We are not an NGO, so we are only working towards the interest of our community and making
+                sure every holder of our token gets rewarded with profits at the long run 
+              </Text>
+            </Box>
+          </Col>
+        </Row>
+        <br/>
+        <br/>
+        <br/>
+        <Row>
+          <Col className="md-6">
+            <Box className="awards-left-content">
+              <SectionTitle>
+                <SectionBackground>
+                  <Heading as="h1">Community</Heading>
+                </SectionBackground>
+                <Text>
+                  We are a community Driven token, which means that we are nothing 
+                  without our community. The development team have burnt all of their 
+                  tokens and participated like everyone else. Every trade contributes 
+                  towards automatically generating liquidity that goes into multiple 
+                  pools used by exchanges. 
+                </Text> 
+                
+              </SectionTitle>
+            </Box>
+          </Col>
+          <Col className="md-6">
+            <Box>
+                <Text as="p">Token Name: - KOSHU INU </Text>
+                <Text as="p">Token Symbol: - KOSHU </Text>
+                <Text as="p">Token type: - Bep20 (BSC Chain) </Text>
+                <Text as="p">Decimals: - 9 </Text>
+                <Text as="p">Contract Address: 0xbf5957be<span>42917</span>e3f3b4fe<span>214421</span>c0571d21ad254 </Text>
+                <Text as="p">Token type: - Bep20 (BSC Chain)  </Text>
+                <Text as="p">Total supply: - 100,000,000,000 </Text>
+                <Text as="p">Burned: 6,000,000,000 </Text>
+            </Box>
+          </Col>
+
+          {/* <Col className="md-6 awards-col">
+            <Box className="awards-item-wrapper">
+              {awardsdata.awards.map((item, index) => (
+                <Box
+                  className={`awards-item ${index === 3 ? `active` : ""}`}
+                  key={index}
+                >
+                  <Text as="span" className="award-icon">
+                    {" "}
+                    {item.icon}{" "}
+                  </Text>
+                  <Box className="counter-text">
+                    {" "}
+                    <Counter end={item.count} suffix="+" />{" "}
+                    <Text as="span">{item.body}</Text>{" "}
+                  </Box>
+                </Box>
+              ))}
+            </Box>
+          </Col> */}
+        </Row>
+
+        <Row>
           <Col className="lg-5 md-4 xs-12">
             <Box className="wallet-image">
-              <Image src={walletImage} alt="cryptik wallet image" />
+            </Box>
+            <Box>
+              <SectionTitle>
+                <SectionBackground>
+                  <Heading as="h1">KNOW MORE ABOUT KOSHU INU</Heading>
+                </SectionBackground>
+              </SectionTitle>
+              <Text>Consider other costs as you factor out the KOSHU INU price</Text>
+              <Text>
+                In addition to the initial fee plus food and vet expenses, there are many other costs to consider
+                when looking at the Koshu Inu price. For starters, a Koshu Inu needs more training than other 
+                breeds. It’s no secret that the breed is strong-willed and stubborn. A common phrase among
+                Koshu parents is, “A Koshu will do what a Koshu wants.” 
+              </Text>
+              <Text></Text>
+              <Text></Text>
             </Box>
           </Col>
           <Col className="lg-6 offset-lg-1 md-8 xs-12">
             <Box className="wallet-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading> Cryptocurrency Environment </Heading>
+                  <Heading> How much are vet expenses? </Heading>
                 </SectionBackground>
                 <Text>
-                  Cryptos are used for transactions such as buying and selling goods and
-                  services, as store of value, as ecosystem tokens and many other purposes.
-                  This is made possible with the use of an online ledger with strong
-                  cryptography. The use of cryptography makes it difficult to double-spend
-                  or counterfeit. One defining feature is that it is not regulated by any
-                  central authority, making it a tax-free operation system.
-                  Cryptocurrencies wor by using Blockchain technology spread across
-                  various computers.
+                  Overall, the Koshu is a healthy breed. This is an important thing to consider if you’re taking into
+                  account the full Koshu Inu price. After all, vet bills aren’t cheap. 
                 </Text>
                 <Text>
-                The blockchain is a digital record for transactions made with
-                cryptocurrencies. It uses an E-wallet where these transactions are stored.
-                The transactions are well secure and managed and to be a part of this
-                network, platforms such as exchanges and peer-to-peer transactions are
-                available. There are over 6,700 cryptocurrencies traded globally. The
-                rising giant player in the cryptocurrency market is the decentralized
-                crypto exchange system. It allows new coins to get listed for free,
-                invariably allowing users new investment opportunities, friction-less and
-                almost gas-free. DEX exchanges are fast, reliable, and easy to use.
-                Another perk is that they come with amazing liquidity benefits,
-                including users’ rewarding for helping the platform thrive. In this
-                environment, SafeBTC is coming to the market combining the best
-                benefits for institutional and retail investors. With the skyrocketing
-                adoption of blockchain, delving into trending opportunities is a smart
-                move for any investor
+                  If your dog isn’t spayed or neutered, you should definitely do that right away, unless you have
+                  plans for breeding. This costs anywhere from $250-$500. 
+                </Text>
+                <Text>
+                  Long-term, the most common health issues for the Koshu Inu are allergies, glaucoma, cataracts,
+                  hip dysplasia, entropion and luxating patella 
+                </Text>
+                <Text>
+                  The KOSHU INU is a breed of hunting dog from Japan. A small-to-medium breed, it is the
+                  smallest of the six original and distinct spitz breeds of dog native to Japan. A small, alert, and
+                  agile dog that copes very well with mountainous terrain and hiking trails, the KOSHU INU was
+                  originally bred for hunting 
                 </Text>
               </SectionTitle>
 
-              <Box className="wallet-info">
+              {/* <Box className="wallet-info">
                 {data.wallet.map((item, index) => (
                   <Box className="counter-item" key={index}>
                     <Counter end={item.count} suffix={item.suffixText} />
                     <Text>{item.body}</Text>
                   </Box>
                 ))}
-              </Box>
+              </Box> */}
             </Box>
           </Col>
         </Row>

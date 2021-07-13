@@ -22,13 +22,13 @@ const Footer = () => {
         <Subscribe />
         <Container>
           <Row>
-            <Col className="lg-3 sm-6">
+            {/* <Col className="lg-3 sm-6">
               <Box className="footer-widgets company-desc">
                 <Image src={cryptikFooterLogo} alt="Koshu footer logo" />
                 <Text>
                 </Text>
 
-                {/* <Box className="contact-info">
+                <Box className="contact-info">
                   <Link href="#">
                     <a>
                       {" "}
@@ -41,9 +41,9 @@ const Footer = () => {
                       <FaEnvelope /> +88 {" "}
                     </a>
                   </Link>
-                </Box> */}
+                </Box>
               </Box>
-            </Col>
+            </Col> */}
             {/* <Col className="lg-3 sm-6">
               <Box className="footer-widgets">
                 <Heading as="h2">Service</Heading>
@@ -63,19 +63,14 @@ const Footer = () => {
                 <List>
                   <ListItem>
                     <Link href="https://www.hotbit.io/exchange?symbol=KOSHU_USDT">
-                      <a>Buy KOSHU</a>
+                      <a>Buy Koshu on HOTBIT</a>
                     </Link>
                   </ListItem>
-                  <ListItem>
-                    <Link href="https://www.hotbit.io/exchange?symbol=KOSHU_USDT">
-                      <a>Koshu on HOTBIT</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
+                  {/* <ListItem>
                     <Link href="#">
                       <a>Lbank</a>
                     </Link>
-                  </ListItem>
+                  </ListItem> */}
                   <ListItem>
                     <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbf5957be42917e3f3b4fe214421c0571d21ad254">
                       <a>Buy Koshu on Pancakeswap v2</a>
@@ -101,7 +96,7 @@ const Footer = () => {
               <Box className="footer-social-links">
                 {data.links.map((item, index) => (
                   <Link href={item.url} key={index}>
-                    <a> {item.icon} </a>
+                    <a title={item.title}> {item.icon} </a>
                   </Link>
                 ))}
               </Box>

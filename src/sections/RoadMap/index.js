@@ -8,10 +8,7 @@ import { Container, Row, Col } from 'reusecore/Layout'
 import Box from 'reusecore/Box';
 import Heading from 'reusecore/Heading';
 import Text from 'reusecore/Text';
-import Image from 'reusecore/Image';
 import {SectionTitle, SectionBackground} from 'reusecore/SectionTitle';
-
-import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 import aboutImage from 'assets/images/about/about.svg';
 
@@ -29,34 +26,28 @@ const RoadMap = () => {
                     <Row>
                         <Col className="lg-5 md-6 sm-12 order-md-2">
                             {/* <Image src={aboutImage} className="about-image" alt="cryptik about image" /> */}
-                            <Box>
+                            
+                            <Box className="">
                                 <SectionTitle>
-                                    <SectionBackground>
-                                        <Heading as="h1">
-                                            SAFEBTC ROADMAP
-                                        </Heading>
-                                    </SectionBackground>
-                                    <Text>
-                                        The SafebBTC community and ecosystem aims at building a long-term,
-                                        engaged, trusted and thriving play in the cryptocurrency world.
-                                        Numerous developments have begun and SafeBTC intends to introduce
-                                        constant updates as the community goes. The full roadmap is visible on
-                                        our website and it’s constantly updated.
-                                    </Text>
-                                    <Text>
-                                        SafeBtc is a community of upward-moving members geared towards
-                                        excellence and maximum productivity. You can be a part of SafeBTC by
-                                        joining its channels such as Twitter, Telegram and Medium.
-                                    </Text>
+                                    <Heading as="h3"> MESSAGE FROM THE TEAM TO HOLDERS </Heading>
                                 </SectionTitle>
+
+                                <Text>
+                                    We know the market is highly volatile, but always know that you lose only when you sell,
+                                    holding means you’ve not lost your money, only the value of your money reduced. Once you
+                                    sell, it means you are settling for the loss which is not good enough. 
+                                </Text>
+                                <Text>
+                                    Trust us and Trust the process, KOSHU INU is here to stay 
+                                </Text>
                             </Box>
                         </Col>
                         <Col className="lg-6 md-6 sm-12 order-md-1">
-                            <Box className="about-right-content">
+                            <Box className="about-right-content" id="roadmap">
                                 <SectionTitle>
                                     <SectionBackground>
                                         <Heading as="h1">
-                                            KOSHU INU ROADMAP
+                                            ROADMAP
                                         </Heading>
                                     </SectionBackground> 
                                 </SectionTitle>
@@ -68,11 +59,11 @@ const RoadMap = () => {
                                     <Text>
                                         1.  Website Development
                                         <br />
-                                        2.  Presale
+                                        2.  Presale in bounce swap
                                         <br />
-                                        3.  Official launch on Pancake
+                                        3.  Official launch in Pancake swap
                                         <br />
-                                        4.  Listing on Hotbit
+                                        4.  Listing in Hotbit exchange
                                     </Text>
 
                                     <Box className="about-list">
@@ -80,13 +71,9 @@ const RoadMap = () => {
                                     </Box>
                                     
                                     <Text>
-                                        5.  Airdrop distribution to the first 10K airdrop members
+                                        5.  Website, Roadmap and Whitepaper re-design and update.
                                         <br />
-                                        6.  Website redesign and and upgraded
-                                        <br />
-                                        7.  Coingecko
-                                        <br />
-                                        8.  CoinMarketCap
+                                        6.  Airdrop distribution to first 10k airdrop members
                                     </Text> 
 
                                     <Box className="about-list">
@@ -94,13 +81,25 @@ const RoadMap = () => {
                                     </Box>
                                     
                                     <Text>
+                                        7.  Coingecko listing
+                                        <br />
+                                        8.  Trust Wallet Logo application
+                                        <br />
                                         9.  Probit or Coinsbit Listing
                                         <br />
-                                        10.  Product development
+                                        10.  CoinMarketCap listing
                                         <br />
+                                        11.  Product Development.
                                     </Text> 
                                 
                             </Box>
+                        </Col>
+                    </Row>
+
+                    <br />
+                    <Row>
+                        
+                        <Col className="sm-12 md-10 offset-md-1">
                         </Col>
                     </Row>
                 </Container> 

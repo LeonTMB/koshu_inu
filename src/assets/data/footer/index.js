@@ -15,48 +15,69 @@ import {
   export default {
     links : [
         {
-            icon: <FaTwitter />,
-            url: "#"
-        },
-        {
-            icon: <FaTumblr />,
-            url: "#"
-        },
-        {
-            icon: <FaGooglePlusG />,
-            url: "#"
-        },
-        {
-            icon: <FaFacebookF />,
-            url: "#"
-        },
-        {
-            icon: <FaLinkedinIn />,
-            url: "#"
-        },
-        {
-            icon: <FaSlack />,
-            url: "#"
-        },
-        {
-            icon: <FaMediumM />,
-            url: "#"
-        },
-        {
+            title: "Telegram Group",
             icon: <FaTelegramPlane />,
-            url: "#"
+            url: "https://t.me/koshu_inu_group"
         },
         {
-            icon: <FaSnapchatGhost />,
-            url: "#"
+            title: "Twitter",
+            icon: <FaTwitter />,
+            url: "https://twitter.com/koshu_inu"
         },
         {
-            icon: <FaPinterestP />,
-            url: "#"
+            title: "Telegram Channel",
+            icon: <FaTelegramPlane />,
+            url: "https://t.me/koshu_inu_channel"
         },
-        {
-            icon: <FaYoutube />,
-            url: "#"
-        }
+        // {
+        //     title: "",
+        //     icon: <FaTumblr />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaGooglePlusG />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaFacebookF />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaLinkedinIn />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaSlack />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaMediumM />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaTelegramPlane />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaSnapchatGhost />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaPinterestP />,
+        //     url: "#"
+        // },
+        // {
+        //     title: "",
+        //     icon: <FaYoutube />,
+        //     url: "#"
+        // }
     ]
   }

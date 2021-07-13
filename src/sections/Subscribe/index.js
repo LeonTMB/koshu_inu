@@ -23,7 +23,7 @@ const Subscribe = () => {
                     <Heading> Don’t miss out, Stay updated </Heading>
                     <Text>
                       Sign up for updates and market news. Subscribe to our
-                      newsletter and receive update about ICOs and crypto tips.
+                      newsletter and receive update about Koshu and crypto tips.
                     </Text>
                   </SectionTitle>
                 </Col>
@@ -35,7 +35,10 @@ const Subscribe = () => {
                       type="text"
                       placeholder="Enter your email address . . ."
                     />
-                    <Button>Subscribe</Button>
+                    <Button>
+                      <a href="https://koshuinu.us6.list-manage.com/subscribe/post?u=32ae5b1c4b091407561b5afc6&amp;id=5c0d6e83aa">
+                        Subscribe</a>
+                    </Button>
                   </Box>
                 </Col>
               </Row>
