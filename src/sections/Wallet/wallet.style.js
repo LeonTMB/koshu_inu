@@ -51,6 +51,12 @@ const WalletSectionWrapper = styled.div`
     }
   }
 
+  @media only screen and (max-width: 411px) {
+    .smaller-p {
+      font-size: 9px;
+    }
+  }
+
   @media only screen and (max-width: 912px) {
     .wallet-image {
       img {
