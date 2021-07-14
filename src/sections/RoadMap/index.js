@@ -73,7 +73,7 @@ const RoadMap = () => {
                                     <Text>
                                         5.  Website, Roadmap and Whitepaper re-design and update.
                                         <br />
-                                        6.  Airdrop distribution to first 10k airdrop members
+                                        6.  Airdrop distribution to first 1k airdrop members
                                     </Text> 
 
                                     <Box className="about-list">

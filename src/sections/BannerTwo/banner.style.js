@@ -257,7 +257,7 @@ const BannerWrapper = styled.div`
       }
     }
   }
-  @media only screen and (max-width: 375px) { 
+  @media only screen and (max-width: 441px) { 
     .banner-content {
       .heading{
         font-size: 28px;
@@ -269,7 +269,9 @@ const BannerWrapper = styled.div`
         padding-left: 20px;
       }
       .coin-info{
+        flex-wrap: wrap;
         div{
+          width: 35%;
           margin: 12px 8px 5px 8px;
           img{
             margin-right: 10px;
