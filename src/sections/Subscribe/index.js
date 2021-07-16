@@ -18,7 +18,7 @@ const Subscribe = () => {
           <Col className="col-12">
             <Box className="subscribe-box-bg">
               <Row>
-                <Col className="lg-6 offset-lg-3 xs-12">
+                {/* <Col className="lg-6 offset-lg-3 xs-12">
                   <SectionTitle>
                     <Heading> Don’t miss out, Stay updated </Heading>
                     <Text>
@@ -26,10 +26,10 @@ const Subscribe = () => {
                       newsletter and receive update about Koshu and crypto tips.
                     </Text>
                   </SectionTitle>
-                </Col>
+                </Col> */}
               </Row>
               <Row>
-                <Col className="lg-8 offset-lg-2 xs-12">
+                {/* <Col className="lg-8 offset-lg-2 xs-12">
                   <Box className="form-box">
                     <Input
                       type="text"
@@ -40,7 +40,7 @@ const Subscribe = () => {
                         Subscribe</a>
                     </Button>
                   </Box>
-                </Col>
+                </Col> */}
               </Row>
             </Box>
           </Col>
